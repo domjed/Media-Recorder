@@ -13,7 +13,7 @@ in "Old Recordings". Make sure you have enabled a microphone access to your brow
 The first thing to do is to clone the repository from GitHub:
 
 ```sh
-$ git clone `GitHub repo adress`
+$ git clone https://github.com/domjed/Media-Recorder.git
 $ cd backend
 ```
 
