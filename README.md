@@ -1,6 +1,6 @@
 # Media Recorder
 
-## What is a purpose of the project 🤷‍♀️
+## General Info 
 
 This web application allows user to record a sound and save it in a database so that
 every recording can be listened once again and downloaded.
@@ -8,7 +8,37 @@ The app consist of main menu with short introduction into the app. To record new
 voice tab called "New Audio" needs to be visited. Historical entries are listed
 in "Old Recordings". Make sure you have enabled a microphone access to your browser.
 
-## Backend Setup 🛠
+## Prerequisites
+
+This project requires NodeJS (version 8 or later), Pip and Yarn.
+[Node](http://nodejs.org/), [Pip](https://pypi.org/project/pip/) and [Yarn](https://yarnpkg.com/) are really easy to install.
+To make sure you have them available on your machine,
+try running the following command.
+
+```sh
+$ npm -v
+8.3.0
+$ yarn -v 
+1.22.18
+$ pip -V
+pip 22.2.2
+```
+
+## Table of contents 🤷‍♀️
+* [General Info](#general-info)
+* [Prerequisites](#prerequisites)
+* [Technologies](#technologies)
+* [Backend Setup](#backend-setup)
+* [Frontend Setup](#frontend-setup)
+
+## Technologies
+This project is created with:
+* Django
+* JS/React
+* HTML5/CSS3
+* Bootstrap
+
+## Backend Setup
 
 The first thing to do is to clone the repository from GitHub:
 
@@ -48,7 +78,7 @@ Go back to main django project directory and run server:
 (AppDjangoEnv)$ python manage.py runserver
 ```
 
-## Frontend Setup 🛠
+## Frontend Setup
 
 Once the repsitory has been cloned previously, go to main frontend directory:
 
